@@ -43,6 +43,9 @@ body{
     align-items: center;
     gap: 15px;
 }
+.navbar__s4{
+    display: none;
+}
 .mylearning{
     position: relative;
     cursor: pointer;
@@ -91,7 +94,7 @@ body{
 }
 .sale__img-innerbox{
     width: 400px;
-    height: 100px;
+    
     background-color: rgb(245, 249, 252);
     position: absolute;
     padding: 10px;
@@ -123,10 +126,9 @@ body{
     flex-wrap: wrap;
 }
 .card{
-    width: 340px;
-    margin: 0;
-    height: 350px;
-
+   flex-grow: 1;
+   flex-basis: 20%;
+   margin: 5px;
 }
 .card img{
     width:100%;
@@ -182,4 +184,30 @@ body{
     margin: 10px;
     align-items: center;
 }
+@media screen and (max-width:800px){
+    body{
+        font-size: 15px;
+    }
+    
+}
+@media screen and (max-width:600px){
+    .card{
+        flex-basis: 40%;
+    }
+    .categories{
+        display: none;
+    }
+    .sale__img-innerbox{
+        width:200px;
+        font-size: 13px;
+    }
+    .navbar__s2,.navbar__s3{
+        display: none;
+    }
+    .navbar__s4{
+        display: block;
+    }
+    
+}
+
 
