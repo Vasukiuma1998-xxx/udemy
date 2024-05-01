@@ -191,6 +191,7 @@ body{
     
 }
 @media screen and (max-width:600px){
+   
     .card{
         flex-basis: 40%;
     }
