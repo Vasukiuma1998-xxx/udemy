@@ -137,7 +137,7 @@ body{
 
 .section4{
     padding: 10px;
-    margin-top: 0%;
+    margin-top: -20px;
 }
 .section4__skills{
     display: flex;
@@ -162,7 +162,6 @@ body{
     justify-content: space-between;
     margin-top: 20px;
     flex-wrap: wrap;
-  
   
 }
 .footer{
@@ -207,6 +206,9 @@ body{
     }
     .navbar__s4{
         display: block;
+    }
+    .popular-containers{
+        margin-top: 20px;
     }
     
 }
